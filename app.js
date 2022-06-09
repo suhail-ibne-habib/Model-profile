@@ -15,7 +15,7 @@ $('.bgs').slick({
       scale: 1.2,
       duration: 0.5,
       scrollTrigger: {
-          trigger: '#one',
+          trigger: '#bg',
           start: 'left left'
         }
   } )
