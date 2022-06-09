@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Raleway:wght@300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Courgette&display=swap');
 
 *,*::after,*::before{
     margin: 0;
@@ -155,7 +155,8 @@ main{
 
 .profile-link{
     word-break: break-all;
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Cinzel', serif;
     font-size: 25px;
 }
 
@@ -168,7 +169,7 @@ main{
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    background-color: #fff;
+    background-color: white;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -197,11 +198,13 @@ main{
 .social-link-url{
     font-weight: bold;
     word-break: break-all;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
 }
 
-.slick-arrow{
+/* .slick-arrow{
     display: none !important;
-}
+} */
 
 @keyframes hover {
     0%{

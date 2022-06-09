@@ -5,7 +5,12 @@ $('.bgs').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     dots: false,
-    speed: 500
+    speed: 500,
+    accessibility: false,
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
   });
 
   gsap.registerPlugin(ScrollTrigger);
@@ -57,7 +62,7 @@ $('.bgs').slick({
   } )
   
   tl.from( '#cash', {
-      x : '-100vw',
+      x : '100vw',
       duration: 0.3,
       ease: "power4.out"
   } )
