@@ -12,11 +12,10 @@ $('.bgs').slick({
   const tl = gsap.timeline();
 
   tl.from( "#bg", {
-      scale: 1.2,
+      scale: 1.1,
       duration: 0.5,
       scrollTrigger: {
           trigger: '#bg',
-          start: 'left left'
         }
   } )
 
